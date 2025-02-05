@@ -54,20 +54,47 @@ main {
 }
 
 article {
-    margin: 50px auto;
-    width: 40%;
+    margin: 8% auto;
+    width: 45%;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+
+#card {
+    width: 40%;
 }
 
 .main-card {
     background-color: #f6dfca;
     opacity: 0.8;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0;
 }
 
 .circle {
-    width: 75px;
-    height: 75px;
+    width: 185px;
+    height: 175px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 10% auto;
+    font-family: "Wix Madefor Text", serif;
+}
+
+hr {
+    width: 20%;
+    height: 3px;
+    background-color: blue;
+    margin: 0 auto;
 }
